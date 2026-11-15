@@ -1,0 +1,54 @@
+/* ===== Estilos do meu portfólio ===== */
+
+/* Tamanho da foto de perfil */
+.profile-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Altura das imagens dos projetos */
+.project-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Ajuste do carousel (bônus da aula) */
+.carousel-item {
+  height: 95vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ===== NOVO: textos no carousel ===== */
+
+/* Escurece um pouco a imagem para o texto aparecer melhor */
+.carousel-item img {
+  filter: brightness(70%);
+}
+
+/* Coloca o texto no meio do slide */
+.carousel-caption {
+  bottom: 35%;
+}
+
+/* ===== NOVO: animação ao passar o mouse nos cards ===== */
+
+.card-projeto,
+.card-formacao {
+  transition: 0.3s;
+}
+
+.card-projeto:hover,
+.card-formacao:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Linha azul em cima dos cards da Formação */
+.card-formacao {
+  border-top: 5px solid #0d6efd !important;
+}
