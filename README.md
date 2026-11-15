@@ -3,7 +3,7 @@
 **Aluno:** Matheus Hernandes
 **Curso:** Técnico em Desenvolvimento de Sistemas
 
-**Site publicado:** https://matheusdechernandes.github.io/portfolio/
+**Site publicado:** https://github.com/matheusdechernandes/portifolio
 
 ## Descrição
 
